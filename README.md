@@ -2,9 +2,9 @@ MEMORY GAME
 
 1. UVOD
 
-Za svoj završni projekt iz predmeta Objektno programiranje izabrao sam memory igricu. Ovu temu sam izabrao prvenstveno iz razloga što mi je izgledala jednostavna za odraditi i tipičan je primjer projekta kroz koji se može puno toga naučiti. S obzirom da sam odlučio raditi Interface za ovu igricu te sam se malo puta sreo sa nečim sličnim, htjeo sam i ponešto naučiti.
+   Za svoj završni projekt iz predmeta Objektno programiranje izabrao sam memory igricu. Ovu temu sam izabrao prvenstveno iz razloga što mi je izgledala jednostavna za odraditi i tipičan je primjer projekta kroz koji se može puno toga naučiti. S obzirom da sam odlučio raditi Interface za ovu igricu te sam se malo puta sreo sa nečim sličnim, htjeo sam i ponešto naučiti.
 
-Memory je vrsta igrice gdje korisnik ima određen broj karata za stolom i ima mogućnost birati dvije karte koje želi otkriti. Ako su karte iste, ostaju otkrivene, no ako su različite, skrivaju se. Igrica je gotova tek kada su otkriveni svi parovi za stolom. U završnom projektu pisati ću općenito o igrici, opis izrade završnog projekta, problemi i moguće nadogradnje. Program u kojem sam radio projekt je RAD Studio 12.
+   Memory je vrsta igrice gdje korisnik ima određen broj karata za stolom i ima mogućnost birati dvije karte koje želi otkriti. Ako su karte iste, ostaju otkrivene, no ako su različite, skrivaju se. Igrica je gotova tek kada su otkriveni svi parovi za stolom. U završnom projektu pisati ću općenito o igrici, opis izrade završnog projekta, problemi i moguće nadogradnje. Program u kojem sam radio projekt je RAD Studio 12.
 
 2. OPĆENITO
 
@@ -42,13 +42,13 @@ Memory je vrsta igrice gdje korisnik ima određen broj karata za stolom i ima mo
 
 4. ZAKLJUČAK
 
-Za izradu memory igre trebali smo prvo osmislit kako će igrica funkcionirat te kartice koje će prikazivati parove, kako će biti prikazane u interfacu. Također, trebali smo se dosta upoznati sa RAD Studiom i komponentama koje ćemo koristiti pri izradi aplikacije.
+   Za izradu memory igre trebali smo prvo osmislit kako će igrica funkcionirat te kartice koje će prikazivati parove, kako će biti prikazane u interfacu. Također, trebali smo se dosta upoznati sa RAD Studiom i komponentama koje ćemo koristiti pri izradi aplikacije.
 
-Biblioteke koje smo trebali uključiti su algorithm, string i vector, gdje smo napravili klasu za karte koje su se sastojale od vrijednosti i boolean vrijednosti koja provjerava je li karta vidljiva ili nije. Karte smo spremali u vektor karata gdje smo koristili funkciju za poslagat ih nasumično.
+   Biblioteke koje smo trebali uključiti su algorithm, string i vector, gdje smo napravili klasu za karte koje su se sastojale od vrijednosti i boolean vrijednosti koja provjerava je li karta vidljiva ili nije. Karte smo spremali u vektor karata gdje smo koristili funkciju za poslagat ih nasumično.
 
-Kod se sastoji od dvije funkcije gdje funkcija CheckCards() provjerava dvije izabrane karte i ako su iste drži ih otkrivenim, no ako su različite skriva ih. Funkcija ButtonClick() daje funkcionalnost komponentama koje predstavljaju karte. Klikom na komponentu prikazuje se vrijednost te karte i ako ta karta odgovara drugoj ostaje otkrivena, no ako ne odgovara, skriva se. U glavnom dijelu koda smo kreirali točno određeno komponenti koliko ima napravljenih karata.
+   Kod se sastoji od dvije funkcije gdje funkcija CheckCards() provjerava dvije izabrane karte i ako su iste drži ih otkrivenim, no ako su različite skriva ih. Funkcija ButtonClick() daje funkcionalnost komponentama koje predstavljaju karte. Klikom na komponentu prikazuje se vrijednost te karte i ako ta karta odgovara drugoj ostaje otkrivena, no ako ne odgovara, skriva se. U glavnom dijelu koda smo kreirali točno određeno komponenti koliko ima napravljenih karata.
 
-Testiranjem igre zaključili smo da sve radi kako smo zamislili, no smatramo da se igra može unaprijediti tako da stavimo interval pregledavanja karte tako da nam se prikaže i druga vrijednost karte.
+   Testiranjem igre zaključili smo da sve radi kako smo zamislili, no smatramo da se igra može unaprijediti tako da stavimo interval pregledavanja karte tako da nam se prikaže i druga vrijednost karte.
 
 5. LITERATURA
 
